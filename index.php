@@ -81,7 +81,14 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 <header>
-    <h1><a href="#">Стандартный блог</a></h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="up-header">
+                <div class="logo"></div>
+                <div class="number-button"></div>
+            </div>
+        </div>
+    </div>
 </header>
 <nav>
     <ul>
@@ -131,10 +138,7 @@
 	<script type="text/javascript" src="libs/waypoints/waypoints-1.6.2.min.js"></script>
 	<script type="text/javascript" src="libs/scrollto/jquery.scrollTo.min.js"></script>
 	<script type="text/javascript" src="libs/owl-carousel/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="libs/countdown/jquery.plugin.js"></script>
-	<script type="text/javascript" src="libs/countdown/jquery.countdown.min.js"></script>
-	<script type="text/javascript" src="libs/countdown/jquery.countdown-ru.js"></script>
-	<script type="text/javascript" src="libs/landing-nav/navigation.js"></script>
+    <script type="text/javascript" src="libs/landing-nav/navigation.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->

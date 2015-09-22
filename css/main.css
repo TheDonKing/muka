@@ -1,4 +1,10 @@
 @import "moz.css";
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
 *::-webkit-input-placeholder {
   color: #666;
   opacity: 1;
@@ -75,9 +81,13 @@ body {
   -ms-text-size-adjust: 0.625em;
   /* 2 */
   color: #333;
-  background-color: #e6e6e7;
+  background-color: #fff;
   font-kerning: auto;
 }
 p {
-  font-size: 1.600em;
+  font-size: 1.500em;
+}
+.up-header {
+  min-height: 215px;
+  outline: 1px solid red;
 }

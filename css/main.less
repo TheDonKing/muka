@@ -1,4 +1,9 @@
 @import "moz.css";
+@import "elements.less";
+
+.outline(@color){
+  outline: 1px solid @color;
+}
 
 *::-webkit-input-placeholder {
 	color: #666;
@@ -93,12 +98,16 @@ body {
   -webkit-text-size-adjust: 0.625em; /* 2 */
   -ms-text-size-adjust: 0.625em; /* 2 */
   color: #333;
-  background-color: #e6e6e7;
+  background-color: #fff;
   font-kerning: auto;
 }
 
 
 p{
-  font-size:1.600em;
+  font-size:1.500em;
+}
+.up-header{
+  min-height: 215px;
+  .outline(red);
 }
 
