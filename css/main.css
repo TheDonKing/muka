@@ -91,3 +91,19 @@ p {
   min-height: 215px;
   outline: 1px solid red;
 }
+.number-block .button-top {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  border: 2px solid #e5a430;
+  padding: 20px;
+  color: #fff;
+  width: 302px;
+}
+.number-block .button-top a {
+  color: #000;
+  font-size: 1.4em;
+}
+.number-block .button-top a span {
+  font-size: 2em;
+}

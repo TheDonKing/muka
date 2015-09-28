@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'CoreRhino45Regular-Italic';
+  src: url('CoreRhino45Regular-Italic.eot');
+  src: url('CoreRhino45Regular-Italic.eot?#iefix') format('embedded-opentype'),
+       url('CoreRhino45Regular-Italic.woff') format('woff'),
+       url('CoreRhino45Regular-Italic.ttf') format('truetype'),
+       url('CoreRhino45Regular-Italic.svg#CoreRhino45Regular-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

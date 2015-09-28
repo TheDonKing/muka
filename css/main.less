@@ -1,9 +1,14 @@
 @import "moz.css";
 @import "elements.less";
 
+//Basic
 .outline(@color){
   outline: 1px solid @color;
 }
+@color_basic:#e5a430;
+@color_basic2:#591405;
+
+
 
 *::-webkit-input-placeholder {
 	color: #666;
@@ -110,4 +115,23 @@ p{
   min-height: 215px;
   .outline(red);
 }
+.number-block{
+
+  .button-top{
+    .rounded(30px);
+    border:2px solid @color_basic ;
+    padding:20px;
+    color: #fff;
+
+    width: 302px;
+    a{
+      color: #000;
+      font-size:1.4em;
+      span{
+        font-size: 2em;
+      }
+    }
+  }
+}
+
 

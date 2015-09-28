@@ -14,7 +14,7 @@
     <meta name="keywords" content="FraemWork"/>
     <meta name="robots" content="all"/>
     <meta name="description" content="Framework">
-    <title>Framework</title>
+    <title>Мука- донские дары </title>
     <meta name='yandex-verification' content='6c33212f4dc14e06' />
 
     <!-- Для нормального отображении сайта в мобильных устройствах  -->
@@ -83,9 +83,16 @@
 <header>
     <div class="container-fluid">
         <div class="row">
-            <div class="up-header">
-                <div class="logo"></div>
-                <div class="number-button"></div>
+            <div class="up-header ">
+                <div style="background-color: #080808; height:215px; " class="logo col-md-5 col-sm-6"></div>
+                <div style="background-color: red; height:215px; " class="number-block col-md-7 col-sm-6">
+                    <div class="number-block_button">
+                        <p class="button-top">
+                            <a  href="#">Заказ продукции по телефону: <br/><span> +7 928 788 88 88</span></a>
+                        </p>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
