@@ -78,4 +78,13 @@ $(document).ready(function() {
 		return false;
 	});
 
+
+    $('.single-item-rtl').slick({
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        dots: true,
+        arrows: false
+    });
+
 });

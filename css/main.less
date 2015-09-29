@@ -96,10 +96,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-  font-family:RobotoRegular,Helvetica Neue,Helvetica,Arial, sans-serif;
+  font-family:CoreRhino45Regular,Helvetica Neue,Helvetica,Arial, sans-serif;
   font-size: 62.5%;
   line-height: 1.66em;
-  letter-spacing: 0.025em;
   -webkit-text-size-adjust: 0.625em; /* 2 */
   -ms-text-size-adjust: 0.625em; /* 2 */
   color: #333;
@@ -107,31 +106,156 @@ body {
   font-kerning: auto;
 }
 
-
 p{
   font-size:1.500em;
 }
+/* ---------------------------------------------------------HEADER*/
+.up-logo{
+  max-height: 215px;
+}
 .up-header{
-  min-height: 215px;
   .outline(red);
+  overflow: hidden;
+}
+.logo img{
+margin-top: 64px;
 }
 .number-block{
 
   .button-top{
-    .rounded(30px);
-    border:2px solid @color_basic ;
-    padding:20px;
-    color: #fff;
+    .rounded(50px);
+    border:3px solid @color_basic ;
+    padding:12px 14px;
+    font-family:'CoreRhino35Medium', sans-serif;
+    font-weight:700;
+   overflow: hidden;
+    vertical-align: baseline;
+    line-height:normal;
+    text-align:right;
+    margin-top:86px ;
+    display: flex;
 
-    width: 302px;
     a{
       color: #000;
-      font-size:1.4em;
+      font-size:1.400em;
+      &:hover{
+        border: none;
+        text-decoration: none;
+        color: #000;
+      }
       span{
-        font-size: 2em;
+        font-size:1.5em;
       }
     }
   }
 }
+/* ---------------------------------------------------------HEADER>button*/
 
+/* Common button styles */
+.button {
+  float: left;
+  display: block;
+  border: none;
+  background: none;
+  color: inherit;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.button:focus {
+  outline: none;
+}
+.button > span {
+  vertical-align: middle;
+}
+.button--pipaluk {
+  color: #fff;
+}
+/* Pipaluk hover-effects*/
+.button--pipaluk::before,
+.button--pipaluk::after {
+  content: '';
+  border-radius: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  -webkit-transition: -webkit-transform 0.3s, background-color 0.3s;
+  transition: transform 0.3s, background-color 0.3s;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.25, 0, 0.3, 1);
+}
+
+.button--pipaluk:hover::before {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+.button--pipaluk::before,
+.button--pipaluk:hover::after {
+  -webkit-transform: scale3d(0.7, 0.7, 1);
+  transform: scale3d(0.7, 0.7, 1);
+}
+.button--pipaluk:hover::after {
+  background-color:@color_basic;
+}
+.button--pipaluk.button--inverted:hover::after {
+  background-color: #fff;
+}
+
+/* ---------------------------------------------------------SLIDER*/
+
+.slider{
+  max-height: 700px;
+  background-size: cover;
+  background-color: @color_basic;
+  overflow: hidden;
+  width: 100%;
+    img{
+      max-width:350%;
+   }
+  .navbar{
+    margin-bottom: 0;
+  }
+  .navbar-nav{
+    margin-top: 35px;
+      li{
+        margin-left: 10px;
+      }
+      a{
+        font-size:1.8em;
+        .rounded(20px);
+        color: #000000;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        &:hover{
+          color:#c2a374;
+          background-color: #fff;
+        }
+      }
+      .active{
+        background-color: #ffffff;
+      }
+    }
+}
+.navbar-toggle{
+  background-color: @color_basic2;
+  .icon-bar{
+    background-color: @color_basic;
+  }
+}
+.right{
+  float: right !important;
+}
+.single-item-rtl{
+  div{
+    width: 100%;
+    background-color: #080808;
+    height: 450px;
+    color: #f0ad4e;
+  }
+}
 
