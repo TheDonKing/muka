@@ -75,7 +75,7 @@
     <!--[if lt IE 7 ]> <html lang="ru" class="ie6 oldie"> <![endif]-->
     <!--[if IE 7 ]> <html lang="ru" class="ie7 oldie"> <![endif]-->
     <!--[if IE 8 ]> <html lang="ru" class="ie8 oldie"> <![endif]-->
-    <!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--> <html lang="ru"> <!--<![endif]-->
+
 
     <!--if lte IE 8]>
     <script src="libs/respond/respond.min.js"/></script>
@@ -128,18 +128,29 @@
                     </div>
                 </div>
             </div>
-
+            <div class="img-slider">
+                <div class="single-item-rtl">
+                    <div><h2>Мука <br/> высшего <br/> сорта</h2><img src="img/slider/1.png" alt=""/><p>В пшеничной муке высшего сорта велико, в отличие от муки более низкого сорта, содержание крахмала,
+                            практически нет жира. Поскольку она состоит только из размолотого до мелких частиц зерна, в ней немного различных витаминов.
+                            Клейковина составляет примерно 28%...<br/>
+                            <a href="#" class="button">Подробнее</a>
+                        </p></div>
+                    <div><h2>Мука <br/> высшего <br/> сорта</h2><img src="img/slider/2.png" alt=""/><p>В пшеничной муке высшего сорта велико, в отличие от муки более низкого сорта, содержание крахмала,
+                            практически нет жира. Поскольку она состоит только из размолотого до мелких частиц зерна, в ней немного различных витаминов.
+                            Клейковина составляет примерно 28%...<br/>
+                            <a href="#" class="button">Подробнее</a>
+                        </p></div>
+                    <div><h2>Мука <br/> высшего <br/> сорта</h2><img src="img/slider/3.png" alt=""/><p>В пшеничной муке высшего сорта велико, в отличие от муки более низкого сорта, содержание крахмала,
+                            практически нет жира. Поскольку она состоит только из размолотого до мелких частиц зерна, в ней немного различных витаминов.
+                            Клейковина составляет примерно 28%...<br/>
+                            <a href="#" class="button">Подробнее</a>
+                        </p></div>
+                </div>
+            </div>
         </div>
     </div>
-    <img src="img/slider-bg.png" alt=""/>
 </section>
-<div class="img-slider">
-    <div class="single-item-rtl">
-        <div><h1>your content1</h1></div>
-        <div><h1>your content2</h1></div>
-        <div><h1>your content3</h1></div>
-    </div>
-</div>
+
 <section>
     <article>
         <header>

@@ -91,8 +91,9 @@ p {
   max-height: 215px;
 }
 .up-header {
-  outline: 1px solid red;
   overflow: hidden;
+  position: relative;
+  z-index: 6;
 }
 .logo img {
   margin-top: 64px;
@@ -180,17 +181,22 @@ p {
 }
 /* ---------------------------------------------------------SLIDER*/
 .slider {
-  max-height: 700px;
+  height: auto;
   background-size: cover;
-  background-color: #e5a430;
-  overflow: hidden;
+  background: #e5a430 url("../img/slider-bg.png") no-repeat;
   width: 100%;
+  position: relative;
+  max-height: 682px;
 }
-.slider img {
-  max-width: 350%;
+.slider .slider-bg {
+  max-width: 550%;
+  position: absolute;
+  z-index: 4;
+  top: 0;
 }
 .slider .navbar {
-  margin-bottom: 0;
+  margin-bottom: 95px;
+  z-index: 7;
 }
 .slider .navbar-nav {
   margin-top: 35px;
@@ -220,12 +226,63 @@ p {
 .navbar-toggle .icon-bar {
   background-color: #e5a430;
 }
+.img-slider {
+  position: relative;
+  z-index: 5;
+  color: #fff;
+}
+.img-slider h2 {
+  float: left;
+  font: 13em CoreRhino65Bold, Helvetica, Arial, sans-serif;
+  line-height: 1em;
+  padding: 0;
+  text-transform: uppercase;
+  margin-right: 55px;
+  margin-left: 15px;
+}
+.img-slider p {
+  line-height: normal;
+  max-width: 480px;
+  margin-left: 25px;
+  margin-top: 15px;
+  float: left;
+  text-align: left;
+  font-size: 2.100em;
+}
+.img-slider p a {
+  margin-top: 20px;
+  float: right;
+  text-align: right;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  padding: 5px 15px;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.img-slider p a:hover {
+  background-color: #fff ;
+  color: #591405;
+}
+.img-slider div {
+  outline: none;
+}
+.img-slider div img {
+  float: right;
+  max-width: 100%;
+}
+.img-slider .slick-dots {
+  left: -150px;
+  bottom: 130px;
+  max-width: 450px;
+}
+.img-slider .slick-dots li button:before {
+  font-size: 20px;
+  box-shadow: inset -2px -2px 8px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 50px;
+}
+.img-slider .slick-dots li.slick-active button::before {
+  color: #fff;
+}
 .right {
   float: right !important;
-}
-.single-item-rtl div {
-  width: 100%;
-  background-color: #080808;
-  height: 450px;
-  color: #f0ad4e;
 }
