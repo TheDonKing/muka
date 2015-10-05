@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+    //Валидатор формы
+    $('#myForm').validator();
+
+    //Плавный скролл
+    $("html").niceScroll();
 
     //Попап менеджер FancyBox
 	//Документация: http://fancybox.net/howto
@@ -86,6 +91,14 @@ $(document).ready(function() {
         dots: true,
         arrows: false,
         adaptiveHeight: true
+    });
+
+});
+
+$(window).scroll(function(){
+   var st = $(this).scrollTop();
+    $(".paralax-txt").css({
+        "transform": "translate(0%, -" + st /50 + "%"
     });
 
 });

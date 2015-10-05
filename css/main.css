@@ -83,8 +83,11 @@ body {
   background-color: #fff;
   font-kerning: auto;
 }
-p {
-  font-size: 1.500em;
+.right {
+  float: right !important;
+}
+.left {
+  float: left !important;
 }
 /* ---------------------------------------------------------HEADER*/
 .up-logo {
@@ -123,7 +126,7 @@ p {
   color: #000;
 }
 .number-block .button-top a span {
-  font-size: 1.5em;
+  font-size: 1.600em;
 }
 /* ---------------------------------------------------------HEADER>button*/
 /* Common button styles */
@@ -205,7 +208,7 @@ p {
   margin-left: 10px;
 }
 .slider .navbar-nav a {
-  font-size: 1.8em;
+  font-size: 1.4em;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
@@ -226,6 +229,7 @@ p {
 .navbar-toggle .icon-bar {
   background-color: #e5a430;
 }
+/* ---------------------------------------------------------SLIDER>IMG*/
 .img-slider {
   position: relative;
   z-index: 5;
@@ -233,7 +237,7 @@ p {
 }
 .img-slider h2 {
   float: left;
-  font: 13em CoreRhino65Bold, Helvetica, Arial, sans-serif;
+  font: 8.2em CoreRhino65Bold, Helvetica, Arial, sans-serif;
   line-height: 1em;
   padding: 0;
   text-transform: uppercase;
@@ -247,7 +251,7 @@ p {
   margin-top: 15px;
   float: left;
   text-align: left;
-  font-size: 2.100em;
+  font-size: 1.4em;
 }
 .img-slider p a {
   margin-top: 20px;
@@ -283,6 +287,98 @@ p {
 .img-slider .slick-dots li.slick-active button::before {
   color: #fff;
 }
-.right {
-  float: right !important;
+/* ---------------------------------------------------------CONTENT*/
+#content {
+  margin-top: 105px;
+}
+#content .news,
+#content .about {
+  height: auto;
+}
+#content h3 {
+  color: #591405;
+}
+#content .about {
+  font-size: 1.400em;
+  line-height: normal;
+}
+#content .news p {
+  font-size: 1.400em;
+}
+#content .news div:nth-child(2) {
+  margin-top: 0 !important;
+}
+#content .news div {
+  margin-top: 75px;
+}
+#content .news div a.news-links {
+  border-bottom: 1px dotted #337ab7;
+}
+#content .news div a.news-links:hover {
+  border: none;
+}
+/* ---------------------------------------------------------PARALAX*/
+#paralax {
+  margin-top: 80px;
+  height: 465px;
+  background-color: #666;
+  position: relative;
+  outline: hidden;
+}
+#paralax img {
+  bottom: -300px;
+  left: 0;
+  position: absolute;
+}
+.section-1 {
+  overflow: hidden;
+  height: 465px;
+  background-size: cover;
+  -webkit-background-size: cover;
+}
+.section-1 .paralax-txt {
+  opacity: .6;
+  background: url("../img/paralax.png") no-repeat center;
+  z-index: 10;
+  display: inline-block;
+  height: 301px;
+  width: 304px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -120px;
+  margin-top: -20px;
+}
+#contacts {
+  margin-top: 75px;
+  position: relative;
+  outline: hidden;
+}
+#contacts .form-group {
+  overflow: hidden;
+}
+.section-2 .text-form p {
+  font-size: 1.6em;
+  line-height: normal;
+}
+#map {
+  margin-top: 50px;
+}
+.map {
+  height: 500px;
+  width: 100%;
+}
+footer {
+  background-color: #e5a430;
+  height: 244px;
+  padding-top: 50px;
+}
+footer img {
+  float: left;
+  margin-right: 25px;
+}
+footer p {
+  padding-top: 50px;
+  font-size: 1.6em;
+  line-height: normal;
 }

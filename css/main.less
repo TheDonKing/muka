@@ -106,8 +106,12 @@ body {
   font-kerning: auto;
 }
 
-p{
-  font-size:1.500em;
+
+.right{
+  float: right !important;
+}
+.left{
+  float: left !important;
 }
 /* ---------------------------------------------------------HEADER*/
 .up-logo{
@@ -145,7 +149,7 @@ margin-top: 64px;
         color: #000;
       }
       span{
-        font-size:1.5em;
+        font-size:1.600em;
       }
     }
   }
@@ -232,7 +236,7 @@ margin-top: 64px;
         margin-left: 10px;
       }
       a{
-        font-size:1.8em;
+        font-size:1.4em;
         .rounded(20px);
         color: #000000;
         padding-top: 5px;
@@ -253,13 +257,14 @@ margin-top: 64px;
     background-color: @color_basic;
   }
 }
+/* ---------------------------------------------------------SLIDER>IMG*/
 .img-slider{
   position: relative;
   z-index: 5;
   color: #fff;
   h2{
     float: left;
-    font:13em CoreRhino65Bold , Helvetica, Arial, sans-serif;
+    font:8.200em CoreRhino65Bold , Helvetica, Arial, sans-serif;
     line-height:1em;
     padding: 0;
     text-transform: uppercase;
@@ -273,7 +278,7 @@ margin-top: 64px;
     margin-top: 15px;
     float: left;
     text-align: left;
-    font-size: 2.100em;
+    font-size: 1.4em;
     a{
       margin-top: 20px;
       float: right;
@@ -310,9 +315,109 @@ margin-top: 64px;
     color: #fff;
   }
 }
-.right{
-  float: right !important;
+
+
+/* ---------------------------------------------------------CONTENT*/
+
+#content{
+  margin-top: 105px;
+   .news, .about{
+    height:auto;
+  }
+  h3{
+    color: @color_basic2;
+  }
+  .about{
+    font-size: 1.400em;
+    line-height: normal;
+  }
+  .news{
+    p{
+      font-size: 1.400em;
+    }
+    div:nth-child(2){
+      margin-top:0 !important;
+    }
+    div{
+      margin-top:75px;
+      a.news-links{
+        border-bottom: 1px dotted #337ab7;
+        &:hover{
+          border: none;
+        }
+
+      }
+    }
+
+  }
 }
-
-
+/* ---------------------------------------------------------PARALAX*/
+#paralax{
+  margin-top:80px;
+  height:465px;
+  background-color: #666;
+  position: relative;
+  outline: hidden;
+  img{
+    bottom:-300px;
+    left: 0;
+    position: absolute;
+  }
+}
+.section-1{
+  overflow: hidden;
+  height: 465px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  .paralax-txt{
+    opacity: .6;
+    background: url("../img/paralax.png") no-repeat center;
+    z-index: 10;
+    display: inline-block;
+    height:301px;
+    width:304px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -120px;
+    margin-top: -20px;
+  }
+}
+#contacts{
+  margin-top:75px;
+  position: relative;
+  outline: hidden;
+  .form-group{
+    overflow: hidden;
+  }
+}
+.section-2 {
+  .text-form{
+    p{
+      font-size: 1.6em;
+      line-height: normal;
+    }
+  }
+}
+#map{
+  margin-top: 50px;
+}
+.map{
+  height: 500px;
+  width: 100%;
+}
+footer{
+  background-color: @color_basic;
+  height: 244px;
+  padding-top: 50px;
+  img{
+    float: left;
+    margin-right:25px;
+  }
+    p{
+      padding-top: 50px;
+      font-size: 1.6em;
+      line-height: normal;
+    }
+}
 
