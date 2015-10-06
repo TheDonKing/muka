@@ -101,6 +101,9 @@ body {
 .logo img {
   margin-top: 64px;
 }
+.number-block {
+  overflow: hidden;
+}
 .number-block .button-top {
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -198,6 +201,7 @@ body {
   top: 0;
 }
 .slider .navbar {
+  margin-top: -1px;
   margin-bottom: 95px;
   z-index: 7;
 }
@@ -381,4 +385,9 @@ footer p {
   padding-top: 50px;
   font-size: 1.6em;
   line-height: normal;
+}
+footer .footer-soc a i {
+  font-size: 2em;
+  margin-right: 10px;
+  color: #000;
 }

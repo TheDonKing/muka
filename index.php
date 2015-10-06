@@ -109,15 +109,15 @@
     <div class="container">
         <div class="row">
             <div class="navbar">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
-                        <span class="sr-only">Открыть навигацию</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="container">
+                <div class="bg">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                            <span class="sr-only">Открыть навигацию</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
                     <div class="collapse navbar-collapse" id="responsive-menu">
                         <ul class="right nav navbar-nav ">
                             <li><a class="active" href="#">О нас</a></li>
@@ -126,11 +126,13 @@
                             <li><a href="#">Контакты</a></li>
                         </ul>
                     </div>
+
                 </div>
+
             </div>
             <div class="img-slider">
                 <div class="single-item-rtl">
-                    <div><h2>Мука <br/> высшего <br/> сорта</h2><img src="img/slider/1.png" alt=""/><p>В пшеничной муке высшего сорта велико, в отличие от муки более низкого сорта, содержание крахмала,
+                    <div><h2>Мука <br/> высшего <br/> сорта</h2><br/><img src="img/slider/1.png" alt=""/><br/><p>В пшеничной муке высшего сорта велико, в отличие от муки более низкого сорта, содержание крахмала,
                             практически нет жира. Поскольку она состоит только из размолотого до мелких частиц зерна, в ней немного различных витаминов.
                             Клейковина составляет примерно 28%...<br/>
                             <a href="#" class="button">Подробнее</a>
@@ -252,13 +254,14 @@
                     © 2015 «Донские Дары»
                 </p>
             </div>
-            <div class="footer-soc col-md-6">
-                <div>
-                    
-                </div>
-                <a href=""><i class="fa fa-instagram"></i></a>
+            <div class="footer-soc col-md-offset-7 col-lg-offset-7 col-sm-offset-4">
+                <div class="col-md-offset-7">
+                    <a href=""><i class="fa fa-instagram"></i></a>
                     <a href=""><i class="fa fa-vk"></i></a>
-                        <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-twitter"></i></a>
+
+                </div>
+
             </div>
 
         </div>
