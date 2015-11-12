@@ -391,3 +391,18 @@ footer .footer-soc a i {
   margin-right: 10px;
   color: #000;
 }
+/* ---------------------------------------------------------FANCYBOX-STYLE*/
+.inline-box {
+  max-width: 980px;
+  height: auto;
+  overflow: hidden;
+}
+.inline-box div {
+  font-size: 1.100em;
+}
+.inline-box div .tab-content {
+  width: 75%;
+}
+.inline-box div p {
+  padding: 15px;
+}
