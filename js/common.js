@@ -27,13 +27,7 @@ $(document).ready(function() {
 		};
 	}, {offset: 100});
 
-	//Плавный скролл до блока .div по клику на .scroll
-	//Документация: https://github.com/flesler/jquery.scrollTo
-	$("a.scroll").click(function() {
-		$.scrollTo($(".div"), 800, {
-			offset: -90
-		});
-	});
+
 
 	//Каруселька
 	//Документация: http://owlgraphic.com/owlcarousel/
@@ -86,7 +80,7 @@ $(document).ready(function() {
 
     $('.single-item-rtl').slick({
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 5000,
         dots: true,
         arrows: false,

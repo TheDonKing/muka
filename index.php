@@ -105,7 +105,7 @@
         </div>
     </div>
 </header>
-<section class="slider">
+<section id="container" class="slider">
     <div class="container">
         <div class="row">
             <div class="navbar">
@@ -120,10 +120,10 @@
                     </div>
                     <div class="collapse navbar-collapse" id="responsive-menu">
                         <ul class="right nav navbar-nav ">
-                            <li><a class="active" href="#">О нас</a></li>
-                            <li><a href="#">Продукция</a></li>
-                            <li><a href="#">Новости</a></li>
-                            <li><a href="#">Контакты</a></li>
+                            <li><a class="active scroll" href="#content">О нас</a></li>
+                            <li><a class="scroll" href="#container">Продукция</a></li>
+                            <li><a class="scroll" href="#news">Новости</a></li>
+                            <li><a class="scroll" href="#contacts">Контакты</a></li>
                         </ul>
                     </div>
 
@@ -134,15 +134,18 @@
                 <div class="single-item-rtl">
                     <div><h2>Мука <br/> высшего <br/> сорта</h2><br/><img src="img/slider/1.png" alt=""/><br/><p>В пшеничной муке высшего сорта велико, в отличие от муки более низкого сорта, содержание крахмала, практически нет жира. Поскольку она состоит только из размолотого до мелких частиц зерна, в ней немного различных витаминов. Клейковина составляет примерно 28%, частиц оболочек зерна нет. Имеет цвет белоснежный, с легко узнаваемым запахом. Таким образом, главные достоинства муки высшего сорта – это её прекрасные хлебопекарные качества.
                             <br/>
-                            <a id="inline" href="#inline_1" class="button fancybox">Подробнее</a>
-                        </p></div>
+                        </p>
+                        <a id="inline" href="#inline_1" class="button fancybox">Подробнее</a>
+                    </div>
                     <div><h2>Мука <br/> первого <br/> сорта</h2><br/><img src="img/slider/1.png" alt=""/><br/><p>Мука из пшеницы с давних времён используется человеком и является постоянным продуктом на каждой кухне. При наличии муки, человеку не страшен голод, так как главный продукт стола – хлеб, выпекается именно из неё. Мука первого сорта содержит не больше 3-4% частиц оболочки зерна. Это наиболее распространённая разновидность муки. Она белого цвета с желтоватым оттенком, содержит, примерно, на треть клейковины.
                             <br/>
-                            <a id="inline" href="#inline_2" class="button fancybox">Подробнее</a>
-                        </p></div>
+                        </p>
+                        <a id="inline" href="#inline_2" class="button fancybox">Подробнее</a>
+                    </div>
                     <div><h2>Мука <br/> высшего <br/> сорта</h2><br/><img src="img/slider/1.png" alt=""/><br/><p>В пшеничной муке высшего сорта велико, в отличие от муки более низкого сорта, содержание крахмала, практически нет жира. Поскольку она состоит только из размолотого до мелких частиц зерна, в ней немного различных витаминов. Клейковина составляет примерно 28%, частиц оболочек зерна нет. Имеет цвет белоснежный, с легко узнаваемым запахом. Таким образом, главные достоинства муки высшего сорта – это её прекрасные хлебопекарные качества.<br/>
-                            <a id="inline" href="#inline_1" class="button fancybox">Подробнее</a>
-                        </p></div>
+                        </p>
+                        <a id="inline" href="#inline_1" class="button fancybox">Подробнее</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -163,7 +166,7 @@
 
                 </p>
             </div>
-            <div class="news col-md-6">
+            <div id="news" class="news col-md-6">
                 <h3>Новости</h3>
                 <div>
                     <a href="#">2014-11-25</a>
@@ -360,7 +363,7 @@
     <script type="text/javascript" src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
 	<script type="text/javascript" src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script type="text/javascript" src="libs/waypoints/waypoints-1.6.2.min.js"></script>
-	<script type="text/javascript" src="libs/scrollto/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
 	<script type="text/javascript" src="libs/owl-carousel/owl.carousel.min.js"></script>
     <script type="text/javascript" src="libs/landing-nav/navigation.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>

@@ -257,7 +257,9 @@ body {
   text-align: left;
   font-size: 1.4em;
 }
-.img-slider p a {
+.img-slider a {
+  z-index: 9999;
+  font-size: 1.4em;
   margin-top: 20px;
   float: right;
   text-align: right;
@@ -267,7 +269,7 @@ body {
   text-decoration: none;
   margin-right: 15px;
 }
-.img-slider p a:hover {
+.img-slider a:hover {
   background-color: #fff ;
   color: #591405;
 }
