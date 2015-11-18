@@ -163,6 +163,9 @@
     .paralax-txt{
         background: none !important;
     }
+    .inline-box img{
+        max-width: 75%;
+    }
 }
 
 /* Custom, iPhone Retina */

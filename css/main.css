@@ -399,6 +399,12 @@ footer .footer-soc a i {
   height: auto;
   overflow: hidden;
 }
+.inline-box img {
+  max-width: 50%;
+  display: block;
+  vertical-align: top;
+  margin: 0 auto;
+}
 .inline-box div {
   font-size: 1.100em;
 }
